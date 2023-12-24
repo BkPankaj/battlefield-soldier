@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    cursor: pointer;
+    font-size: small;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0 0;
+    margin-left: 20px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, #ffffff, #ffffff16); 
+    border-image-slice: 1;
+}
+.nav ul li{
+    margin-right: 60px;
+}
+.selected{
+   font-weight: 700;
+   border-bottom: 1px solid white;
+}
+.homelevel{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.home_logo{
+    height: 40px;
+    width: 80px;
+}
+
+.navMenu.active{
+  left: 0;
+}
+@media (max-width: 768px) {
+  .navbar-ul{
+    display: flex;
+    flex-direction: column;
+  }
+  }
